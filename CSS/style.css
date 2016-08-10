@@ -1,0 +1,48 @@
+body{
+    /*62.5% do default 16px dá 10px, facilitando depois pra usar em, segundo autor Maujor*/
+    font: 62.5% sans-serif;
+}
+
+header#top{
+    background: #152C3A;
+    color: #FDFEF7;
+    height: 6em;
+}
+
+header#top figure#logo{
+    width: 2em;
+    float: left;
+    padding: 1em;
+    margin: 0 8em 0 1em; 
+} 
+
+header#top nav#firstMenu{
+    float: left;
+    margin-top: 2em;
+}
+
+header#top nav#firstMenu ul li{
+    display: inline-block;
+}
+
+header#top nav#firstMenu ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1em;
+    font-size: 1.2em;
+}
+
+header#top div#startProcess{
+    background: #00C39D;
+    height: 100%;
+    width: 20em;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+header#top div#startProcess p{
+    font-weight: bold;
+    font-size: 1.5em;
+}
